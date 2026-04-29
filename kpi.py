@@ -14,6 +14,6 @@ bonus = float(input("Digite o valor do bônus recebido: "))
 calc = CONSTANTE_BONUS + (salario * bonus)
 
 # 5 - Imprima o cálculo do KPI para o usuário
-print("Olá, ", nome,"O seu bônus foi de R$ ", calc)
+print(f"Olá, {nome}. O seu bônus foi de R$ {calc}!")
 
 
